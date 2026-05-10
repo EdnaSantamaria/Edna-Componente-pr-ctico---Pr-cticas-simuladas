@@ -1,5 +1,4 @@
 # Software FJ
-
 Sistema en Python orientado a objetos, **sin base de datos**, que gestiona
 clientes, servicios (reserva de salas, alquiler de equipos, asesorías) y
 reservas para la empresa **Software FJ**.
