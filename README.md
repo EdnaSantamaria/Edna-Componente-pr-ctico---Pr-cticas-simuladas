@@ -1,11 +1,10 @@
-# Software FJ — Sistema Integral (POO + Excepciones)
+# Software FJ
 
 Sistema en Python orientado a objetos, **sin base de datos**, que gestiona
 clientes, servicios (reserva de salas, alquiler de equipos, asesorías) y
 reservas para la empresa **Software FJ**.
 
-## Estructura
-
+Estructura
 ```
 software_fj/
 ├── excepciones.py   # Jerarquía de excepciones personalizadas
@@ -15,8 +14,7 @@ software_fj/
 ├── main.py          # Demostración con 12 operaciones (válidas/ inválidas)
 └── eventos.log      # Generado al ejecutar
 ```
-
-## Conceptos aplicados
+Conceptos aplicados
 
 - **Abstracción**: `Entidad` y `Servicio` son `ABC` con métodos abstractos.
 - **Herencia**: `Cliente`, `Servicio` heredan de `Entidad`; `ReservaSala`,
@@ -32,7 +30,7 @@ software_fj/
 - **Estabilidad**: el `main` ejecuta operaciones válidas e inválidas y nunca
   se interrumpe.
 
-## Ejecución
+Ejecución
 
 ```bash
 cd software_fj
