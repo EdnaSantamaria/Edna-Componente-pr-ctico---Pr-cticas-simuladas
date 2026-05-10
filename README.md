@@ -1,0 +1,1 @@
+# Edna-Componente-pr-ctico---Pr-cticas-simuladas
